@@ -1,15 +1,11 @@
 var btnTranslate = document.querySelector("#btn-translator");
-var txtArea = document.querySelector("#txt-input");
+var txtInput = document.querySelector("#txt-input");
 var outputDiv =document.querySelector("#output");
 
-// outputDiv.innerText ="Tanay Pratap";
-
-console.log(outputDiv);
 
 function clickHandler() {
-    console.log("clicked!");
-    console.log("input is: ", txtInput.value);
+  outputDiv.innerText="haha ha haha ha " + txtInput.value;
 };
 
-btnTranslate.addEventListener("click", clickHandler);
+btnTranslate.addEventListener("click", clickHandler)
 
