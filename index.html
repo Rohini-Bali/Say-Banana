@@ -13,23 +13,42 @@
             margin: 1rem;
             padding: 1rem;
         }
-        #output{
+
+        #output {
             border: 1px solid black;
             margin: 1rem;
-            padding:1rem;
+            padding: 1rem;
             height: 10vh;
             width: 80%;
 
+        }
+
+        #btn-translator{
+            border-radius: 70%;
+            border: black;
+            margin: auto;
+            background-color: yellow;
+            padding: 1rem 1.7rem;
+        }
+
+        .container{
+            text-align: center;
+            border: none;
+            margin: auto;
         }
     </style>
 </head>
 
 <body>
     <h1>Banana Speak</h1>
-    <textarea  id="txt-input" placeholder="Put the text here"></textarea><!--putting a text box-->
-    <button id="btn-translator">Translate</button> <!-- create a button -->
+    <h2>Do You want to Talk To Cute Little Minions?</h2>
+    <textarea id="txt-input" placeholder="Put the text here"></textarea>
+    <!--putting a text box-->
+    <div class="container"><button id="btn-translator">Translate</button></div>
+    <!-- create a button -->
     <div style="font-size: larger;">Output will come here 👇</div>
     <div id="output"></div>
-    <script src="applive.js" type="text/javascript" ></script>
+    <script src="applive.js" type="text/javascript"></script>
 </body>
+
 </html>
