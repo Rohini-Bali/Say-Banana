@@ -54,7 +54,7 @@ textarea {
     text-align: center;
     font-size: xx-large;
     font-weight: 600;
-    padding: 2rem;
+    padding: 1.5rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
@@ -63,8 +63,8 @@ textarea {
 /** header **/
 
 .hero {
-    padding: 2rem;
-    padding-top: 2rem;
+    padding: 1.5rem;
+    padding-top:1.2rem;
     margin: auto;
     text-align: center;
     color: black;
