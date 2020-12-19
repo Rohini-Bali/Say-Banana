@@ -55,8 +55,8 @@ textarea {
     font-size: xx-large;
     font-weight: 600;
     padding: 2rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 
